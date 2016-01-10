@@ -1,0 +1,24 @@
+{
+  "generator-jhipster": {
+    "baseName": "health",
+    "packageName": "com.iot.health",
+    "packageFolder": "com/iot/health",
+    "authenticationType": "oauth2",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": "no",
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "elasticsearch",
+    "useSass": false,
+    "buildTool": "gradle",
+    "frontendBuilder": "grunt",
+    "enableTranslation": true,
+    "enableSocialSignIn": false,
+    "rememberMeKey": "2503b8e1d6aae4d3202a28dd472e78b4f105caa9",
+    "testFrameworks": [
+      "gatling"
+    ]
+  }
+}
